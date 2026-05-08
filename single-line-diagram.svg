@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" viewBox="0 0 680 920" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<title>Building Electrical Distribution System — Single Line Diagram</title>
+<desc>Single line diagram for a 3-storey commercial office building. Ottawa, ON. 120/208V 3-phase 4-wire. Prepared by A.Y. Loukili, Carleton University EE.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#1A2E4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- Background -->
+<rect width="680" height="920" fill="#FAFAFA"/>
+
+<!-- Title block -->
+<rect x="40" y="14" width="600" height="36" rx="4" fill="#1A2E4A"/>
+<text x="340" y="37" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="white">Building Electrical Distribution System — Single Line Diagram</text>
+<text x="340" y="64" text-anchor="middle" font-size="12" fill="#6B7280">3-Storey Commercial Office · Ottawa, ON · 120/208V 3φ 4W · Prepared by: A.Y. Loukili, Carleton University EE</text>
+
+<!-- UTILITY TRANSFORMER -->
+<rect x="250" y="88" width="180" height="52" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="340" y="108" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#2C2C2A">Utility transformer</text>
+<text x="340" y="126" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5F5E5A">250 kVA · 600V → 120/208V 3φ</text>
+
+<!-- Transformer to meter -->
+<line x1="340" y1="140" x2="340" y2="168" stroke="#374151" stroke-width="1.5"/>
+<circle cx="340" cy="172" r="8" fill="none" stroke="#374151" stroke-width="1.5"/>
+<text x="356" y="176" dominant-baseline="central" font-size="11" fill="#6B7280">kWh</text>
+<line x1="340" y1="180" x2="340" y2="200" stroke="#374151" stroke-width="1.5"/>
+
+<!-- MAIN DISTRIBUTION BOARD -->
+<rect x="220" y="200" width="240" height="52" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="340" y="220" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#0C447C">Main distribution board</text>
+<text x="340" y="238" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">MDB · 400A main breaker · 120/208V</text>
+
+<!-- Main busbar -->
+<rect x="140" y="268" width="400" height="6" rx="2" fill="#378ADD" opacity="0.7"/>
+<text x="340" y="285" text-anchor="middle" font-size="11" fill="#6B7280">Main busbar — 400A</text>
+
+<!-- Feeder lines and breakers -->
+<!-- LP-F1 x=175 -->
+<line x1="175" y1="274" x2="175" y2="316" stroke="#374151" stroke-width="1.2"/>
+<rect x="163" y="316" width="24" height="14" rx="3" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="175" y="324" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#374151">60A</text>
+<line x1="175" y1="330" x2="175" y2="354" stroke="#374151" stroke-width="1.2"/>
+
+<!-- LP-F2 x=255 -->
+<line x1="255" y1="274" x2="255" y2="316" stroke="#374151" stroke-width="1.2"/>
+<rect x="243" y="316" width="24" height="14" rx="3" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="255" y="324" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#374151">60A</text>
+<line x1="255" y1="330" x2="255" y2="354" stroke="#374151" stroke-width="1.2"/>
+
+<!-- LP-F3 x=335 -->
+<line x1="335" y1="274" x2="335" y2="316" stroke="#374151" stroke-width="1.2"/>
+<rect x="323" y="316" width="24" height="14" rx="3" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="335" y="324" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#374151">60A</text>
+<line x1="335" y1="330" x2="335" y2="354" stroke="#374151" stroke-width="1.2"/>
+
+<!-- PP-F1 x=415 -->
+<line x1="415" y1="274" x2="415" y2="316" stroke="#374151" stroke-width="1.2"/>
+<rect x="403" y="316" width="24" height="14" rx="3" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="415" y="324" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#374151">100A</text>
+<line x1="415" y1="330" x2="415" y2="354" stroke="#374151" stroke-width="1.2"/>
+
+<!-- PP-F2 x=495 -->
+<line x1="495" y1="274" x2="495" y2="316" stroke="#374151" stroke-width="1.2"/>
+<rect x="483" y="316" width="24" height="14" rx="3" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="495" y="324" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#374151">100A</text>
+<line x1="495" y1="330" x2="495" y2="354" stroke="#374151" stroke-width="1.2"/>
+
+<!-- MECH x=560 -->
+<line x1="560" y1="274" x2="560" y2="316" stroke="#374151" stroke-width="1.2"/>
+<rect x="548" y="316" width="24" height="14" rx="3" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="560" y="324" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#374151">150A</text>
+<line x1="560" y1="330" x2="560" y2="354" stroke="#374151" stroke-width="1.2"/>
+
+<!-- SUB-PANELS -->
+<!-- LP-1A -->
+<rect x="120" y="354" width="110" height="46" rx="5" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="175" y="372" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#633806">LP-1A</text>
+<text x="175" y="388" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">Lighting · FL1 · 60A</text>
+
+<!-- LP-1B -->
+<rect x="200" y="354" width="110" height="46" rx="5" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="255" y="372" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#633806">LP-1B</text>
+<text x="255" y="388" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">Lighting · FL2 · 60A</text>
+
+<!-- LP-1C -->
+<rect x="280" y="354" width="110" height="46" rx="5" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="335" y="372" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#633806">LP-1C</text>
+<text x="335" y="388" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">Lighting · FL3 · 60A</text>
+
+<!-- PP-1A -->
+<rect x="360" y="354" width="110" height="46" rx="5" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="415" y="372" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#04342C">PP-1A</text>
+<text x="415" y="388" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">Power · FL1 · 100A</text>
+
+<!-- PP-1B -->
+<rect x="440" y="354" width="110" height="46" rx="5" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="495" y="372" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#04342C">PP-1B</text>
+<text x="495" y="388" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#0F6E56">Power · FL2–3 · 100A</text>
+
+<!-- MP-1 -->
+<rect x="520" y="354" width="110" height="46" rx="5" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="575" y="372" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#4A1B0C">MP-1</text>
+<text x="575" y="388" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#993C1D">Mechanical · 150A</text>
+
+<!-- Branch circuits from LP-1A -->
+<line x1="175" y1="400" x2="175" y2="438" stroke="#374151" stroke-width="1"/>
+<rect x="167" y="428" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<line x1="175" y1="438" x2="175" y2="456" stroke="#374151" stroke-width="1"/>
+<rect x="118" y="456" width="114" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="175" y="470" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#2C2C2A">L1A · L1B · L1C</text>
+<text x="175" y="485" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#5F5E5A">#14 AWG · 15A · EMT</text>
+
+<!-- Branch from LP-1B -->
+<line x1="255" y1="400" x2="255" y2="438" stroke="#374151" stroke-width="1"/>
+<rect x="247" y="428" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<rect x="198" y="456" width="114" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="255" y="470" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#2C2C2A">L2A · L2B · L2C</text>
+<text x="255" y="485" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#5F5E5A">#14 AWG · 15A · EMT</text>
+
+<!-- Branch from PP-1A -->
+<line x1="415" y1="400" x2="415" y2="438" stroke="#374151" stroke-width="1"/>
+<rect x="407" y="428" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<rect x="355" y="456" width="120" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="415" y="470" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#2C2C2A">P1A · P1B · P1C</text>
+<text x="415" y="485" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#5F5E5A">#12 AWG · 20A · EMT</text>
+
+<!-- Branch from PP-1B -->
+<line x1="495" y1="400" x2="495" y2="438" stroke="#374151" stroke-width="1"/>
+<rect x="487" y="428" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<rect x="436" y="456" width="118" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="495" y="470" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#2C2C2A">P2A · P2B · P2C</text>
+<text x="495" y="485" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#5F5E5A">#12 AWG · 20A · EMT</text>
+
+<!-- Mech loads -->
+<line x1="560" y1="400" x2="560" y2="428" stroke="#374151" stroke-width="1"/>
+<rect x="520" y="428" width="80" height="5" rx="1" fill="#D85A30" opacity="0.6"/>
+<line x1="540" y1="433" x2="540" y2="456" stroke="#374151" stroke-width="1"/>
+<line x1="560" y1="433" x2="560" y2="456" stroke="#374151" stroke-width="1"/>
+<line x1="580" y1="433" x2="580" y2="456" stroke="#374151" stroke-width="1"/>
+<rect x="532" y="447" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<rect x="552" y="447" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<rect x="572" y="447" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<line x1="540" y1="457" x2="540" y2="474" stroke="#374151" stroke-width="1"/>
+<line x1="560" y1="457" x2="560" y2="474" stroke="#374151" stroke-width="1"/>
+<line x1="580" y1="457" x2="580" y2="474" stroke="#374151" stroke-width="1"/>
+<rect x="510" y="474" width="76" height="38" rx="4" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="548" y="488" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#4A1B0C">HVAC-1 &amp; 2</text>
+<text x="548" y="503" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#993C1D">14 kW · 70A · #6 AWG</text>
+
+<!-- Elevator -->
+<line x1="335" y1="434" x2="335" y2="520" stroke="#374151" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="327" y="428" width="16" height="10" rx="2" fill="none" stroke="#374151" stroke-width="1"/>
+<rect x="270" y="520" width="130" height="38" rx="4" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="335" y="534" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#4A1B0C">Elevator motor</text>
+<text x="335" y="549" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#993C1D">7.5 kW · 70A · #6 AWG</text>
+
+<!-- Emergency lighting -->
+<line x1="175" y1="496" x2="80" y2="520" stroke="#374151" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="40" y="520" width="118" height="38" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text x="99" y="534" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#173404">Emergency ltg.</text>
+<text x="99" y="549" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#3B6D11">EL · 14 ckts · 15A</text>
+
+<!-- Fire alarm -->
+<line x1="175" y1="496" x2="175" y2="580" stroke="#374151" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="120" y="580" width="110" height="38" rx="4" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text x="175" y="594" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#501313">Fire alarm</text>
+<text x="175" y="609" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#A32D2D">FA-PNL · 500W · 15A</text>
+
+<!-- Grounding -->
+<line x1="340" y1="252" x2="340" y2="640" stroke="#374151" stroke-width="0.8" stroke-dasharray="3 3"/>
+<rect x="270" y="640" width="140" height="38" rx="4" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="340" y="654" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#2C2C2A">Grounding electrode</text>
+<text x="340" y="669" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#5F5E5A">GEC · #3/0 AWG · ground rod</text>
+<line x1="340" y1="678" x2="340" y2="696" stroke="#374151" stroke-width="1.5"/>
+<line x1="318" y1="696" x2="362" y2="696" stroke="#374151" stroke-width="2"/>
+<line x1="324" y1="704" x2="356" y2="704" stroke="#374151" stroke-width="1.5"/>
+<line x1="330" y1="712" x2="350" y2="712" stroke="#374151" stroke-width="1"/>
+
+<!-- LEGEND -->
+<rect x="40" y="740" width="600" height="130" rx="6" fill="none" stroke="#CBD5E1" stroke-width="0.5"/>
+<text x="56" y="762" dominant-baseline="central" font-size="14" font-weight="500" fill="#1A2E4A">Legend</text>
+<rect x="56" y="775" width="20" height="12" rx="2" fill="none" stroke="#374151" stroke-width="1.2"/>
+<text x="84" y="781" dominant-baseline="central" font-size="12" fill="#374151">Circuit breaker</text>
+<rect x="56" y="799" width="20" height="12" rx="2" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="84" y="805" dominant-baseline="central" font-size="12" fill="#374151">Lighting panel</text>
+<rect x="56" y="823" width="20" height="12" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="84" y="829" dominant-baseline="central" font-size="12" fill="#374151">Power panel</text>
+<rect x="56" y="847" width="20" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="84" y="853" dominant-baseline="central" font-size="12" fill="#374151">Mechanical load</text>
+<rect x="200" y="775" width="20" height="12" rx="2" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text x="228" y="781" dominant-baseline="central" font-size="12" fill="#374151">Safety / emergency</text>
+<line x1="200" y1="805" x2="220" y2="805" stroke="#374151" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="228" y="805" dominant-baseline="central" font-size="12" fill="#374151">Low-voltage / signal feeder</text>
+<line x1="208" y1="823" x2="208" y2="831" stroke="#374151" stroke-width="1.5"/>
+<line x1="200" y1="831" x2="216" y2="831" stroke="#374151" stroke-width="2"/>
+<line x1="202" y1="836" x2="214" y2="836" stroke="#374151" stroke-width="1.5"/>
+<line x1="204" y1="841" x2="212" y2="841" stroke="#374151" stroke-width="1"/>
+<text x="228" y="835" dominant-baseline="central" font-size="12" fill="#374151">Grounding electrode system</text>
+<text x="420" y="781" dominant-baseline="central" font-size="12" fill="#374151">Standards: NEC · Ontario Electrical Code</text>
+<text x="420" y="803" dominant-baseline="central" font-size="12" fill="#374151">Voltage: 120/208V 3φ 4-wire</text>
+<text x="420" y="825" dominant-baseline="central" font-size="12" fill="#374151">Conductors: Cu 75°C RW90</text>
+<text x="420" y="847" dominant-baseline="central" font-size="12" fill="#374151">Conduit: EMT unless noted</text>
+<text x="420" y="858" dominant-baseline="central" font-size="10" fill="#9CA3AF">Rev 1.0 · A.Y. Loukili · Carleton University EE</text>
+</svg>
